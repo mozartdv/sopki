@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'sopki_widgets_init' );
  * Enqueue scripts and styles.
  */
 function sopki_scripts() {
-	wp_enqueue_style('sopki-github', get_template_directory_uri() . '/css/github.css', array());
+	/**wp_enqueue_style('sopki-github', get_template_directory_uri() . '/css/github.css', array());**/
 
 	wp_enqueue_style('sopki-materialize', get_template_directory_uri() . '/css/materialize.css', array());
 
