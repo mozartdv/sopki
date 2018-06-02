@@ -126,6 +126,8 @@ function sopki_scripts() {
 
 	wp_enqueue_style( 'sopki-style', get_stylesheet_uri() );
 
+	wp_enqueue_style('sopki-mystyle', get_template_directory_uri() . '/css/mycss.css', array());
+
 	
 	wp_enqueue_script( 'sopki-navigation', get_template_directory_uri() . '/js/materialize.js', array(), '20151215', true );
 	wp_enqueue_script( 'sopki-init', get_template_directory_uri() . '/js/init.js', array(), '20151215', true );

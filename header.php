@@ -27,10 +27,11 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sopki' ); ?></a>
-
+	
+	
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+	<div class='container center-align'>
+		<div class="site-branding ">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -48,9 +49,10 @@
 				<p class="site-description"><?php echo $sopki_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+	</div>	
 
 		<nav>
-			<div class="nav-wrapper">
+			<div class="nav-wrapper white grey-text text-darken-4">
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			<ul class="left hide-on-med-and-down">
 			
