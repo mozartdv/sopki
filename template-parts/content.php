@@ -8,7 +8,8 @@
  */
 
 ?>
-
+<div class="row">
+	<div class="col push-s1 s10 push-m1 m10 push-l2 l8">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -57,3 +58,5 @@
 		<?php sopki_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
+		</div>
+		</div>

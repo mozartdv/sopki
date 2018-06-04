@@ -1,3 +1,5 @@
+<div class="row">
+<div class="col push-s1 s10 push-m1 m10 push-l2 l8">
 <?php
 /**
  * The sidebar containing the main widget area
@@ -7,6 +9,7 @@
  * @package sopki
  */
 
+
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
@@ -15,3 +18,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <aside id="secondary" class="widget-area">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->
+</div>
+</div>
