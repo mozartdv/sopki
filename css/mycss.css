@@ -17,6 +17,11 @@ img {
 	max-width: 100%;
 }
 
+figure.wp-caption{
+	max-width: 100%;
+	margin:0;
+}
+
 article{
 	background-color: #fff;
 }
