@@ -55,3 +55,10 @@ header h2.entry-title{
 body{
     font-family: 'Noto Serif', serif;
 }
+
+ul.menu-font li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}

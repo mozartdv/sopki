@@ -55,14 +55,14 @@
 		<nav>
 			<div class="nav-wrapper white grey-text text-darken-4">
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			<ul class="left hide-on-med-and-down">
+			<ul class="menu-font left hide-on-med-and-down">
 			
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu', 'container' => '', 'items_wrap'  => '%3$s' ) ); ?>
 			</ul>
 			
 			</div>
 		</nav>
-		<ul class="sidenav" id="mobile-demo">
+		<ul class="menu-font sidenav" id="mobile-demo">
         		<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu', 'container' => '', 'items_wrap'  => '%3$s' ) ); ?>
         		<!--<li ><a class="link-navigation" href="/contact/">Контакты</a></li>-->
         
