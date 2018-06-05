@@ -78,3 +78,13 @@ main.site-main{
 a.brand-logo{
     padding-top: 5px;
 }
+
+a.category-data{
+    position: absolute;
+    right:35px;
+    top: 15px;
+}
+
+p.data-meta{
+    padding-left: 15px;
+}
