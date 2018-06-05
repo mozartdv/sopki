@@ -9,26 +9,37 @@
 
 ?>
 <div class="row">
-	<div class="col push-s1 s10 push-m1 m10 push-l2 l8">
+	<div class="col s12 push-m1 m10 push-l1 l10">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class='card-sopki'>
+	<footer class="entry-footer category-data">
+		
+	</footer><!-- .entry-footer -->
 	<header class="entry-header">
 		<?php
+		if ( 'post' === get_post_type() ) :
+			?>
+			<p class="entry-meta data-meta">
+				<?php
+				the_time('j F Y');
+				?>
+			</p><!-- .entry-meta -->
+		<?php endif;
+		 
+		$categories = get_the_category(); 
+		if($categories[0]){
+			echo '<a  class="category-data" href="' . get_category_link($categories[0]->term_id ) . '">'. $categories[0]->name . '</a>';
+		};
+		
+
+
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				sopki_posted_on();
-				sopki_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
+		 ?>
 	</header><!-- .entry-header -->
 
 	<?php sopki_post_thumbnail(); ?>
@@ -44,9 +55,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php sopki_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	
 		</div>
 </article><!-- #post-<?php the_ID(); ?> -->
 		</div>
