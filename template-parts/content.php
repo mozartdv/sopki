@@ -11,6 +11,7 @@
 <div class="row">
 	<div class="col push-s1 s10 push-m1 m10 push-l2 l8">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class='card-sopki'>
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
@@ -46,6 +47,7 @@
 	<footer class="entry-footer">
 		<?php sopki_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+		</div>
 </article><!-- #post-<?php the_ID(); ?> -->
 		</div>
 		</div>
