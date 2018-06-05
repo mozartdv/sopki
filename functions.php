@@ -126,7 +126,12 @@ function sopki_scripts() {
 
 	wp_enqueue_style( 'sopki-style', get_stylesheet_uri() );
 
-	wp_enqueue_style('sopki-mystyle', get_template_directory_uri() . '/css/mycss.css', array());
+	$style = get_template_directory_uri() . '/css/mycss.css';  
+	$lastedit = filemtime(get_template_directory() . '/style.css');  
+
+	wp_enqueue_style('sopki-mystyle', $style, array(), $lastedit);
+
+	/**wp_enqueue_style('sopki-mystyle', get_template_directory_uri() . '/css/mycss.css', array());**/
 
 	
 	wp_enqueue_script( 'sopki-navigation', get_template_directory_uri() . '/js/materialize.js', array(), '20151215', true );
