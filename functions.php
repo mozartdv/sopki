@@ -15,6 +15,15 @@ function custom_readmore() {
 	add_filter( 'the_content_more_link', 'custom_readmore' );
 /** */	
 
+/**
+ * Респонсив видео
+ */
+add_filter('embed_oembed_html', 'wrap_embed_with_div', 10, 3);
+
+function wrap_embed_with_div($html, $url, $attr) {
+        return "<div class=\"responsive-container\">".$html."</div>";
+}
+
 if ( ! function_exists( 'sopki_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
