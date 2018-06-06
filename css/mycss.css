@@ -83,8 +83,47 @@ a.category-data{
     position: absolute;
     right:35px;
     top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 p.data-meta{
     padding-left: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2.title-main-card{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+h2.title-main-card a{
+    color: #212121;
+    line-height: 1.5;
+}
+
+div.entry-content p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4a4a4a;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+figcaption.wp-caption-text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #4a4a4a;
+    padding-left: 60px;
+    padding-right: 60px;
 }
