@@ -27,15 +27,17 @@ article{
 }
 
 .more-link{
+    font-family: 'Noto Sans', sans-serif;
 	text-decoration: none;
-    color: #fff;
-    background-color: #26a69a;
+    color: #4a4a4a;
+    background-color: #e8e8e9;
     text-align: center;
     letter-spacing: .5px;
     -webkit-transition: background-color .2s ease-out;
     transition: background-color .2s ease-out;
 	cursor: pointer;
-	font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
 	outline: 0;
 	border: none;
     border-radius: 2px;
