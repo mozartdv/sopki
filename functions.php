@@ -6,6 +6,14 @@
  *
  * @package sopki
  */
+/**
+ * Кастомизация кнопки Читать далее
+ */
+function custom_readmore() {
+	return '<p class="center-align"><a class="more-link" href="' . get_permalink() . '">Узнать больше</a></p>';
+	}
+	add_filter( 'the_content_more_link', 'custom_readmore' );
+/** */	
 
 if ( ! function_exists( 'sopki_setup' ) ) :
 	/**
