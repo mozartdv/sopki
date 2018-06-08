@@ -14,19 +14,12 @@
 	</div><!-- #content -->
 </div>
 	
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sopki' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'sopki' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Тема: %1$s by %2$s.', 'sopki' ), 'sopki', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+	<footer id="colophon" class="page-footer grey darken-3 site-footer">
+		<div class="container">
+			<div class="row" style="padding-top:25px; padding-bottom:25px">
+			<p class="footer-info">ИА Сопки.online</p>
+			<p class="footer-info">Наш e-mail:<a href="mailto:editor@sopki.online">editor@sopki.online</a></p>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

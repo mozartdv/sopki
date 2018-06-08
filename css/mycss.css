@@ -243,3 +243,9 @@ a.more-link{
         }
     }
 /*конец стилей пагинации*/
+
+p.footer-info{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
