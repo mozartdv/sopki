@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="row" style="padding-top:25px; padding-bottom:25px">
 			<p class="footer-info">ИА Сопки.online</p>
-			<p class="footer-info">Наш e-mail:<a href="mailto:editor@sopki.online">editor@sopki.online</a></p>
+			<p class="footer-info">Наш e-mail:<a href="mailto:editor@sopkikms.ru">editor@sopkikms.ru</a></p>
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
