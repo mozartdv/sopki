@@ -18,7 +18,8 @@
 		<div class="container">
 			<div class="row" style="padding-top:25px; padding-bottom:25px">
 			<p class="footer-info">СОПКИ-НА-АМУРЕ</p>
-			<p class="footer-info">Наш e-mail:<a href="mailto:editor@sopkikms.ru">editor@sopkikms.ru</a></p>
+			<p class="footer-info">Наш e-mail:&nbsp<a href="mailto:editor@sopkikms.ru">editor@sopkikms.ru</a></p>
+			<p class="footer-info">Мы в социальных сетях:&nbsp <a href="https://vk.com/sopkikms">ВКонтакте</a>&nbsp<a href="https://t-do.ru/sopkikms">Telegram</a></p>
 			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
