@@ -304,3 +304,10 @@ div.entry-content p a{
 }
 div.entry-content p a:hover{
 color: #4a4a4a;}
+
+h2.header-category{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
