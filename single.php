@@ -28,7 +28,28 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
-
+		<div class="row">
+		<div class="col s12 push-m1 m10 push-l1 l10">
+		<h2 class="now-read">Сейчас читают:</h2>
+		
+		<?php $postslist = get_posts('posts_per_page=10&order=post_date'); ?>
+		<ul class="main-news-list">
+							<?php foreach ($postslist as $post) : setup_postdata($post); ?>
+							<li class"more-news">
+								<div class="more-news-category">
+								<?php 
+								$categories = get_the_category(); 
+								if($categories[0]){
+									echo '<a  class="" href="' . get_category_link($categories[0]->term_id ) . '">'. $categories[0]->name . '</a>';
+								}; 
+								?></div>
+								<div class="more-news-link"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></div>
+							</li>
+							<?php endforeach; 
+							wp_reset_postdata(); ?>
+		</ul>
+		</div>
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

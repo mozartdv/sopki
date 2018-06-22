@@ -87,16 +87,18 @@ a.category-data{
     top: 15px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
-    font-weight: bold;
+    
     text-transform: uppercase;
+    color: #fd371d;
 }
 
 p.data-meta{
     padding-left: 15px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
-    font-weight: bold;
+    
     text-transform: uppercase;
+    
 }
 
 h2.title-main-card{
@@ -247,5 +249,58 @@ a.more-link{
 p.footer-info{
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    
 }
+p.footer-info a{
+color: #fd371d}
+
+h2.now-read{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    
+    padding-right: 35px;
+    color: #212121;
+    line-height: 1.5;
+}
+
+ul.main-news-list li{
+    position: relative;
+    padding: 10px 0 5px 0px;
+    
+}
+div.more-news-category a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    
+    text-transform: uppercase;
+    color: #fd371d;
+}
+div.more-news-link{
+    border-bottom: 1px dotted #e3d2cb;
+}
+
+div.more-news-link a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #212121;
+}
+
+ul.main-news-list li a{
+   
+    
+    padding-right: 35px;
+    
+    line-height: 1.5;
+}
+
+div.entry-content p a{
+    color: #fd371d;
+    text-decoration: none;
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' w…0' y='0.5' width='1' height='0.5' fill='rgba(253,55,29,0.5)'/%3E%3C/svg%3E);
+    background-position: left bottom 1px;
+    background-repeat: repeat-x;
+}
+div.entry-content p a:hover{
+color: #4a4a4a;}
