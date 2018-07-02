@@ -311,3 +311,40 @@ h2.header-category{
     font-weight: bold;
     
 }
+
+@media screen and (max-width:640px) {
+    main.site-main {
+        padding-top: 10px;
+    }
+    .container {
+        width: 98%;
+    }
+    div.entry-content p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h2.title-main-card{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    div.entry-content p{
+        font-size: 14px;
+    }
+
+    figcaption.wp-caption-text{
+        padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px
+    }
+    h2.now-read{
+        margin: 0;
+        padding-left: 10px;
+    }
+    ul.main-news-list{
+        padding-left: 15px;
+    }
+  }
