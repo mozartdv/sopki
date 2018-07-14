@@ -312,6 +312,13 @@ h2.header-category{
     
 }
 
+p.link-telegram{
+    font-weight: bold;
+}
+
+p.link-telegram a{
+    color: #fd371d;
+}
 @media screen and (max-width:640px) {
     main.site-main {
         padding-top: 10px;
@@ -348,3 +355,4 @@ h2.header-category{
         padding-left: 15px;
     }
   }
+

@@ -28,6 +28,16 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
+		
+		<div class="row">
+		<div class="col s12 push-m1 m10 push-l1 l10">
+			<article>
+			<div class="card-sopki center" >
+				<p class="link-telegram">Подписывайся на наш&nbsp<a href="https://tglink.ru/Sopkikms">Телеграм-канал</a></p>
+			</div>
+			</article>
+		</div>
+		</div>
 		<div class="row">
 		<div class="col s12 push-m1 m10 push-l1 l10">
 		<h2 class="now-read">Сейчас читают:</h2>

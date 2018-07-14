@@ -50,6 +50,7 @@
 
 		
 		?>
+		
 	</div><!-- .entry-content -->
 
 	
